@@ -21,12 +21,15 @@
                 margin-right: 30px;
             }
 
-            a::before {
+            a:before {
                 content: "";
                 background-color: #403D39;
                 width: 10px;
                 height: 10px;
                 margin-right: 10px;
+            }
+            a:hover:before {
+                background-color: #EB5E28;
             }
 
             #button {
